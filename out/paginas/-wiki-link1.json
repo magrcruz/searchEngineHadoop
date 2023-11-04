@@ -1,0 +1,9 @@
+{
+    "url": "/wiki/link1",
+    "titulo": "T\u00edtulo de Link 1",
+    "contenido": "Este es el contenido del primer enlace.",
+    "snipet": "snipet",
+    "enlaces_salientes": [
+        "/wiki/link3"
+    ]
+}

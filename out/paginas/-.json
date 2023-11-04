@@ -1,0 +1,10 @@
+{
+    "url": "/",
+    "titulo": "T\u00edtulo de Example.com",
+    "contenido": "Este es el contenido de Example.com.",
+    "snipet": "snipet",
+    "enlaces_salientes": [
+        "/wiki/link1",
+        "/wiki/link2"
+    ]
+}
