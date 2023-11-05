@@ -9,7 +9,6 @@ enlaces_salientes = {
     "link5": []
 }
 
-# Recorre la lista de enlaces y crea archivos JSON
 for url, enlaces in enlaces_salientes.items():
     with open(base + url.replace("/", "-") + '.txt', 'w') as file:
         file.write("\n".join(enlaces))
