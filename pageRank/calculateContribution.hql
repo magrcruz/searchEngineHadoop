@@ -21,15 +21,3 @@ FROM
   ) link_counts ON link.source = link_counts.source
 GROUP BY
   link.dest;
-
-
-SELECT url, num_links FROM temp
-JOIN (
-    SELECT
-      source,
-      COUNT(1) AS num_links
-    FROM
-      links
-    GROUP BY
-      source
-  ) link_counts ON link_counts.source = temp.url;

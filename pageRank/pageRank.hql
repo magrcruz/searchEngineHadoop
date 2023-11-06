@@ -36,3 +36,6 @@ SELECT
 FROM
   pagerank_contribuciones pc;
 
+
+SELECT * from pagerank_temp
+LIMIT 10;

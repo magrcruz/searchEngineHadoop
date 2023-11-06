@@ -6,7 +6,7 @@ SELECT
   url AS source,
   enlace AS dest
 FROM
-  temp
+  raw_pages
 LATERAL VIEW explode(enlaces_salientes) enlaces AS enlace;
 
 
@@ -19,3 +19,5 @@ SELECT DISTINCT
   1.0 AS pagerank
 FROM
   links;
+
+SHOW TABLES;
